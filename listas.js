@@ -9,9 +9,8 @@ const listaDeDestinos = new Array (
     'Rio de Janeiro'
 );
 
-listaDeDestinos.push('Curitiba');
-
-listaDeDestinos.push('João Pessoa');
+listaDeDestinos.push("Curitiba");
+listaDeDestinos.push("João Pessoa");
 
 listaDeDestinos.splice(1,2);
 console.log(listaDeDestinos[0], listaDeDestinos[2]);
